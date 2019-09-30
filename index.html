@@ -1,0 +1,63 @@
+
+<link rel="stylesheet" href="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.css" type="text/css"/>
+<script src="https://cdn.fluidplayer.com/v2/current/fluidplayer.min.js"></script> 
+
+<video id='video-id' width="100%">
+    <source src='https://doc-0o-6c-docs.googleusercontent.com/docs/securesc/ha0ro937gcuc7l7deffksulhg5h7mbp1/tedvsekret98781ct2jasshi8lg2l6b8/1569837600000/16555720762481471013/*/1NHdwvjdmCt2uw0ljv8JttK-nJf7F3s6R' type='video/mp4'/>
+</video>
+
+<script>
+    var myFP = fluidPlayer(
+        'video-id',
+        {
+            layoutControls: {
+		fillToContainer: false,
+		primaryColor: false,
+		posterImage: false,
+		autoPlay: true,
+		playButtonShowing: false,
+		playPauseAnimation: true,
+		mute: false,
+		logo: {
+			imageUrl: null,
+			position: 'top left',
+			clickUrl: null,
+			opacity: 1,
+			mouseOverImageUrl: null,
+			imageMargin: '2px',
+			hideWithControls: false,
+			showOverAds: false
+		},
+		htmlOnPauseBlock: {
+			html: '<iframe src="//a.exdynsrv.com/iframe.php?idzone=3537965&size=468x60" width="468" height="60" scrolling="no" marginwidth="0" marginheight="0" frameborder="0"></iframe>',
+			height: 100,
+			width: 200
+		},
+		allowDownload: false,
+		allowTheatre: true,
+		playbackRateEnabled: true,
+		controlBar: {
+      
+			autoHide: false,
+			autoHideTimeout: 3,
+			animated: true
+		},
+            },
+            vastOptions: {
+               "adList" : [{
+                "vAlign" : "bottom",
+                "roll" : "midRoll",
+                "timer" : "1%",
+                "vastTag" : "https://syndication.exdynsrv.com/splash.php?idzone=3538131"
+            },
+                          {
+                "vAlign" : "bottom",
+                "roll" : "midRoll",
+                "timer" : "3%",
+                "vastTag" : "https://syndication.exdynsrv.com/splash.php?idzone=3538131"
+            }]
+            }
+        }
+    );
+</script>
+
